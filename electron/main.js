@@ -48,7 +48,7 @@ const createWindow = () => {
   });
   // 开发环境下，打开开发者工具
   // if (!isPackaged) {
-    mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
   // }
 
   // 使用 loadurl 加载 http://localhost:3100，也就是我们刚才创建的Vue项目地址
